@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
 import './App.css';
+import CoursesInfo from './Components/CoursesInfo/CoursesInfo';
+import Header from './Components/Header/Header';
+import Second from './Components/Second/Second';
+import Slider from './Components/Slider/Slider';
+import Third from './Components/Third/Third';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <div>
+      <Header></Header>
+      </div>
+      <div className="slider">
+      <Slider></Slider>
+      </div>
+
+      <div className="second-part">
+        <Second></Second>
+      </div>
+      <CoursesInfo></CoursesInfo>
+      <Third></Third>
+      
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.third-part{
+    text-align: center;
+    height: 350px;
+    width:100%;
+    background-color: rgb(32, 31, 31);
+    color:white;
+    
+}
+.third-part h1{
+    font-weight: 100;
+    font-size: 40px;
+    padding-top:100px;
+}
+.third-part p{
+    font-weight: 200;
+    padding-top: 10px;
+}
+.third-part button{
+    margin-top:20px;
+    
+}

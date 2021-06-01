@@ -1,0 +1,28 @@
+.header img{
+    width: 200px;
+}
+.navbar{
+    background-color: black;
+}
+.forma{
+    width: 600px;
+    background-color: transparent;
+}
+.forma button{
+    border-color: rgb(255, 106, 7);
+    color: white;
+    margin-left: 30px;
+    width: 150px;
+}
+.forma button:hover{
+    background-color: rgb(255, 106, 7);
+    border-color: rgb(255, 106, 7);
+}
+
+.form-control{
+    background-color: transparent !important;
+    border-color: rgb(255, 106, 7)!important;
+}
+::placeholder{
+    color: white!important;
+}
